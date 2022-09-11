@@ -1,6 +1,170 @@
-<a href="http://kubsu.ru/">КубГУ</a>
-<ol>
-  <li><a href="http://kubsu.ru/">КубГУ</a> </li>
-  <li><a href="/">КубГУ</a> </li>
-  <li><a href="./hello">КубГУ</a> </li>
-</ol>
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&display=swap" rel="stylesheet">
+        <title>Лаба №3</title>
+    </head>
+<body>
+    <div class="headerblock">
+        <main>
+            <a href="./index.html">
+                <h1>Лабораторная №3</h1>
+            </a>
+        </main>
+        <aside>
+            <a href="./index.html">
+                <img class="logo" src="https://img.artlebedev.ru/everything/russia-logo/russia-logo.gif" alt="logo" />
+            </a>
+        </aside>
+    </div>
+    <nav class="nav">
+            <a href="#links" class="b1"><h5>Ссылки</h5></a> 
+            <a href="#table" class="b2"><h5>Таблица</h5></a> 
+            <a href="#form" class="b3"><h5>Форма</h5></a> 
+            <a href="#author" class="b4"><h5>Автор</h5></a>
+    </nav>
+<div class = "page">
+    <div class="contentblock" id="links">
+        <h2 class="h2">Гиперссылки</h2>
+        <ol>
+            <li>  <a href="http://www.example.com/">абсолютная гиперссылка на главную страницу сайта example.com</a>  </li>
+            <li>  <a href="https://www.example.com/">абсолютная на главную сайта example.com в протоколе https</a>  </li>
+            <li>  <a href="ftp://tiun:pass123@example.com/myfile.zip">ссылка на файл на сервере FTP с авторизацией</a>  </li>
+            <li>  <a href="ftp://www.example.com/myfile.zip">ссылка на файл на сервере FTP без авторизации</a>  </li>
+            <li>  <a href="https://www.kubsu.ru/#node-news-32689">ссылка на фрагмент страницы некоторого сайта</a>  </li>
+            <li>  <a href="#frag">ссылка на фрагмент текущей страницы</a>  </li>
+            <li>  <a href="https://www.google.com/search?a=kubsu&q=kubsu">ссылка с двумя параметрами в URL</a>  </li>
+            <li>Навигация КубГУ
+                <ul>
+                    <li><a href="http://www.kubsu.ru/" title="Главная">Главная</a></li>
+                    <li><a href="https://www.kubsu.ru/ru/university" title="Университет">Университет</a></li>
+                    <li><a href="https://www.kubsu.ru/ru/education" title="Образование">Образование</a></li>
+                    <li><a href="https://www.kubsu.ru/ru/science" title="Наука и инновации">Наука</a></li>
+                    <li><a href="https://www.kubsu.ru/ru/abiturient" title="Добро пожаловать!">Абитуриентам</a></li>
+                    <li><a href="https://www.kubsu.ru/ru/studlife" title="Студенческая жизнь">Студентам</a></li>
+                </ul>
+            </li>
+            <li><a title="ссылка без href">Ссылка без href</a></li>
+            <li><a href="" title="ссылка с пустым href">Ссылка с пустым href</a></li>
+            <li>  <a href="https://example.com/" rel="nofollow">ссылка, по которой запрещен переход поисковикам</a>   </li>
+            <li>  <a href="http://example.com" rel="nofollow"><!--noindex-->запрещенная для индексации поисковиками<!--/noindex--></a>  
+            </li>
+            <li>  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur aliquam, commodi quo nulla odit expedita 
+              praesentium excepturi aut voluptate soluta! Qui aspernatur <a href="http://example.com">facere</a> eaque, 
+              praesentium dolor ipsa iste eum nihil.</p> 
+            </li>
+            <li>  <a href="http://example.com">  <img src="http://pristor.ru/wp-content/uploads/2018/07/%D0%9E%D1%87%D0%B5%D0%BD%D1%8C-%D0%BC%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%B8%D0%B5-%D1%80%D0%B8%D1%81%D1%83%D0%BD%D0%BA%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%81%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%BA%D0%B8-%D0%B2-%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9-%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA-%D0%BF%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B0-11.jpg" alt="pic1">  </a>  </li>
+            <li> <img src="http://pristor.ru/wp-content/uploads/2018/07/%D0%9E%D1%87%D0%B5%D0%BD%D1%8C-%D0%BC%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%B8%D0%B5-%D1%80%D0%B8%D1%81%D1%83%D0%BD%D0%BA%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%81%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%BA%D0%B8-%D0%B2-%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9-%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA-%D0%BF%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B0-11.jpg" usemap="#test" alt="pic2"> 
+              <map name="test">
+                <area shape="rect" coords="96,78,338,198" href="http://example.com" alt="ex">
+                <area shape="circle" coords="274,394,50" href="http://example.com" alt="ex">
+              </map>
+
+            </li>
+            <li><a href="./index.html">в текущем каталоге</a></li>
+            <li><a href="./about/index.html">в каталоге about</a></li>
+            <li><a href="../index.html">в каталоге на 1 уровень выше</a></li>
+            <li><a href="../../index.html">на 2 уровня выше</a></li>
+            <li><a href="/"> Сокращенная ссылка на главную </a></li>
+            <li><a href="/glob">Сокращенная ссылка на внутреннюю </a></li>
+        </ol>
+    </div>
+    <div class="contentblock" id="table">
+        <h2 class="h2">Таблица</h2>
+        <table class="table">
+            <tr class="table_odd">
+                <th>Колонка 1</th>
+                <th>Колонка 2</th>
+                <th>Колонка 3</th>
+                <th>Колонка 4</th>
+            </tr>
+            <tr class="table_even">
+                <td colspan="2">Ячейка 11 объединенная с 12</td>
+                <td colspan="2">Ячейка 13 объединенная с 14</td>
+            </tr>
+            <tr class="table_odd">
+                <td>Ячейка 21</td>
+                <td colspan="2">Ячейка 22 объединенная с 23</td>
+                <td>Ячейка 24</td>
+            </tr>
+            <tr class="table_even">
+                <td>Ячейка 31</td>
+                <td>Ячейка 32</td>
+                <td>Ячейка 33</td>
+                <td>Ячейка 34</td>  
+            </tr>
+            <tr class="table_odd">
+                <td colspan="4">Ячейка 41 объединенная с ячейками 42, 43 и 44</td>
+            </tr>
+            <tr class="table_even">
+                <td>Ячейка 51</td>
+                <td colspan="3">Ячейка 52 объединенная с 53 и 54</td>
+            </tr>
+        </table>
+    </div>
+    <div class="contentblock" id="form">
+        <h2 class="h2">Форма</h2>
+        <form action="URL_отправки_данных" method="POST" class="form">
+
+            <label>Имя:<br />
+                <input name="YourName" value="Ваше имя" />
+            </label>
+            <br />
+
+            <label>Email:<br />
+                <input name="YourEmail" value="Ваш Email" type="email" />
+            </label>
+            <br />
+
+            <label>Дата рождения:<br />
+                <input name="Birthdate" value="2003-01-09" type="date" />
+            </label>
+            <br />
+            <div class = "choicebox">
+                <div class="choice1">
+                    Пол:<br />
+                    <label><input type="radio" name="s" value="Male" />М</label>
+                    <label><input type="radio" name="s" value="Female" />Ж</label>
+                    <br />
+                </div>
+
+                <div class="choice2">
+                    Кол-во конечностей:<br />
+                    <label><input type="radio" name="limbs" value="1" />1</label>
+                    <label><input type="radio" name="limbs" value="2" />2</label>
+                    <label><input type="radio" name="limbs" value="3" />3</label>
+                    <label><input type="radio" name="limbs" value="4" />4</label>
+                    <br />
+                </div>
+            </div>
+
+            <label>Сверхспособности:<br />
+                <select multiple="multiple">
+                    <option>Бессмертие</option>
+                    <option>Левитация</option>
+                    <option>Хождение сквозь стены</option>
+                    <option>Не отчислился</option>
+                </select>
+            </label><br />
+
+            <label>Биография:<br />
+                <textarea placeholder="О себе"></textarea>
+            </label><br />
+
+            <label><input type="checkbox">С контрактом ознакомлен(-а)</label><br />
+
+            <input type="button" value="Submit">
+
+        </form>  
+    </div>
+    <footer class="footer" id="author">
+        <a href = "https://vk.com/niktiun">
+            <h5>© Тиунов Н. Д. 2021</h5>
+        </a>
+    </footer>
+</div>
+</body>
+</html>
