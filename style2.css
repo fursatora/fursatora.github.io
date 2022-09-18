@@ -1,6 +1,6 @@
 .headerblock {
     width:100%; 
-    background-color:#e8e69e; 
+    background-color:#97b357; 
     padding: 10px; 
     height:120px;
 }
@@ -21,7 +21,7 @@
 
 .contentblock {
     max-width:960px; 
-    background-color: #5994ee; 
+    background-color: #d2e89e; 
     margin: 0 auto; 
     margin-top:5px; 
     padding:10px;
@@ -29,7 +29,7 @@
 
 .footer {
     width:100%; 
-    background-color:#4403ac; 
+    background-color:#658248; 
     padding: 10px; 
     font-size: 10pt;
     font-family: "Tahoma", monotype;
@@ -40,7 +40,7 @@
 
 .nav {
     max-width:960px; 
-    background-color: #2168ec; 
+    background-color: #658248; 
     margin: 0 auto; 
     margin-top:5px; 
     padding: 10px;
