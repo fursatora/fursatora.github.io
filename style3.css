@@ -229,7 +229,7 @@ body {
 .choice1{
   font-size: large;
   margin: auto;
-  padding: 20px;
+  padding: 5px;
   display: flex;
   flex-direction: row;
 }
@@ -241,7 +241,7 @@ body {
 .choice2{
   font-size: large;
   margin: auto;
-  
+  padding 5px;
   display: flex;
   flex-direction: column;
 }
@@ -263,7 +263,7 @@ body {
   background-color: #d3ecdb;
   border-radius: 6px;
   margin: 5px;
-  padding: 12px;
+  padding: 2px;
 }
 
 ol{
