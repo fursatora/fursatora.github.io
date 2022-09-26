@@ -211,19 +211,19 @@ body {
   width: 100%;
   font-size: 16pt;
   font-family: 'Cormorant SC', serif;
-  background-color: #fff0f5;
+  background-color: #d3ecdb;
 }
 
 .form input{
   width: 100%;
-  background-color: #fff0f5;
+  background-color: #d3ecdb;
 }
 
 .form textarea{
   width: 100%;
   font-size: 16pt;
   font-family: 'Cormorant SC', serif;
-  background-color: #fff0f5;
+  background-color: #d3ecdb;
 }
 
 .choice1{
@@ -260,10 +260,10 @@ body {
 }
 
 .choicebox{
-  background-color: #e40ab5;
+  background-color: d3ecdb;
   border-radius: 6px;
   margin: 5px;
-  padding: 20px;
+  padding: 12px;
 }
 
 ol{
