@@ -229,7 +229,7 @@ body {
 .choice1{
   font-size: large;
   margin: auto;
-  padding: 5px;
+  padding: 20px;
   display: flex;
   flex-direction: row;
 }
