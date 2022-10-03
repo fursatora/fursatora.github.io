@@ -22,17 +22,13 @@ main, footer, nav{
     border-radius: 10px;
     background-color: #8c000a;
 }
-
-.footer, footer a{ 
+.contentblocks div, footer, footer a{ 
     background-color: #8c000a; 
     color: white;
     font-family: 'Cormorant SC', serif;
 }
 
 .contentblocks div{
-    background-color: #c4bbb4; 
-    color: white;
-    font-family: 'Cormorant SC', serif;
     border-radius: 10px;
 }
 
