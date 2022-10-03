@@ -5,6 +5,7 @@ aside img{
 
 body {
   background: #535353 url(https://w-dog.ru/wallpapers/15/7/495495932941314.jpg);
+    color: white;
         background-attachment: fixed; 
 }
 
@@ -22,21 +23,24 @@ main, footer, nav{
     background-color: #8c000a;
 }
 
-.contentblocks div, footer, footer a{ 
+.footer, footer a{ 
     background-color: #8c000a; 
     color: white;
     font-family: 'Cormorant SC', serif;
 }
 
 .contentblocks div{
+    background-color: #c4bbb4; 
+    color: white;
+    font-family: 'Cormorant SC', serif;
     border-radius: 10px;
 }
 
 nav a h5{
     font-family: 'Amatic SC', bold;
-    color: black;
+    color: white;
 }
 
 main a h1{
-    color: black;
+    color: white;
 }
