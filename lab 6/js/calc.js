@@ -62,7 +62,7 @@ function updPrice() {
       current_price *= amount[0].value;
   }
   let pprice = document.getElementById("pprice");
-  pprice.innerHTML = current_price + " евро";
+  pprice.innerHTML = current_price + "RUB";
 }
 
 window.addEventListener("DOMContentLoaded", function () {
