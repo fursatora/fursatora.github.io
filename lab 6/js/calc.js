@@ -1,14 +1,14 @@
 function getPriceObj() {
   return {
-      products: [500, 430, 670],
+      products: [100, 200, 300],
       options: {
-          option1: 20,
-          option2: 200,
-          option3: 50
+          option1: 50,
+          option2: 100,
+          option3: 150
       },
       props: {
           prop1: 100,
-          prop2: 220
+          prop2: 200
       }
   };
 }
