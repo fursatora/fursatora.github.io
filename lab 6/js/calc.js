@@ -62,16 +62,10 @@ function updPrice() {
       current_price *= amount[0].value;
   }
   let pprice = document.getElementById("pprice");
-  pprice.innerHTML = current_price + "RUB";
+  pprice.innerHTML = current_price + " RUBлей";
 }
 
 window.addEventListener("DOMContentLoaded", function () {
-  let secretImg = document.getElementById("secretMeme");
-  secretImg.style.display = "none";
-  let secretButton = document.getElementById("secretButton");
-  secretButton.addEventListener("click", function () {
-      secretImg.style.display = "block";
-  });
   let radio = document.getElementById("radios");
   radio.style.display = "none";
 
