@@ -4,12 +4,12 @@ function getPriceObj() {
       options: {
           option1: 20,
           option2: 0,
-          option3: 300
+          option3: 300,
       },
       props: {
           prop1: 100,
           prop2: 70,
-          prop3: 50
+         
       }
   };
 }
