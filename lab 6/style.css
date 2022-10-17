@@ -4,9 +4,7 @@ aside img{
 }
 
 body {
-  background: #535353 url(https://w-dog.ru/wallpapers/15/7/495495932941314.jpg);
-    color: white;
-        background-attachment: fixed; 
+  background-color: #363636;
 }
 
 body img {
@@ -20,11 +18,12 @@ main, footer, nav{
 
 .row {
     border-radius: 10px;
-    background-color: #8c000a;
+    background-color: #fff0f5;
 }
+
 .contentblocks div, footer, footer a{ 
-    background-color: #8c000a; 
-    color: white;
+    background-color: #fff0f5; 
+    color: black;
     font-family: 'Cormorant SC', serif;
 }
 
@@ -34,9 +33,10 @@ main, footer, nav{
 
 nav a h5{
     font-family: 'Amatic SC', bold;
-    color: white;
+    color: black;
 }
 
 main a h1{
-    color: white;
+    color: black;
 }
+
