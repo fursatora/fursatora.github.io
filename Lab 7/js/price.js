@@ -5,7 +5,7 @@ function Calculate() {
     if ((/^[0-9]+$/).test(field_1[0].value) && (/^[0-9]+$/).test(field_2[0].value)) {
         res.innerHTML = "Стоимость " + (field_1[0].value * field_2[0].value);
     } else {
-        res.innerHTML = "Неверный ввод, пожалуйста введите ЦЫЫЫФРЫ.";
+        res.innerHTML = "Неверный ввод";
     }
 }
 
