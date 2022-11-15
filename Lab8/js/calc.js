@@ -1,14 +1,14 @@
 function getPriceObj() {
   return {
-      products: [500, 430, 670],
+      products: [100, 200, 300],
       options: {
-          option1: 20,
-          option2: 200,
-          option3: 50
+          option1: 50,
+          option2: 100,
+          option3: 150
       },
       props: {
           prop1: 100,
-          prop2: 220
+          prop2: 200
       }
   };
 }
@@ -62,16 +62,10 @@ function updPrice() {
       current_price *= amount[0].value;
   }
   let pprice = document.getElementById("pprice");
-  pprice.innerHTML = current_price + " евро";
+  pprice.innerHTML = current_price + " RUBлей";
 }
 
 window.addEventListener("DOMContentLoaded", function () {
-  let secretImg = document.getElementById("secretMeme");
-  secretImg.style.display = "none";
-  let secretButton = document.getElementById("secretButton");
-  secretButton.addEventListener("click", function () {
-      secretImg.style.display = "block";
-  });
   let radio = document.getElementById("radios");
   radio.style.display = "none";
 
